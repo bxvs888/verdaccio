@@ -8,7 +8,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { IntlProvider } from 'react-intl';
-import { locale, messages } from './utils/localization';
+import { locale, messages } from './utils/locales';
 import App from './app';
 
 const rootNode = document.getElementById('root');
